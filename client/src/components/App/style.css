@@ -1,0 +1,48 @@
+.title {
+  text-align: center;
+  font-family: "Waiting for the Sunrise", cursive;
+  font-size: 6em;
+}
+
+.contentWrapper {
+  width: 700px;
+  padding: 15px;
+  margin: 10px auto 30px auto;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: table;
+}
+
+.description {
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.locationInput {
+  width: 550px;
+  height: 20px;
+  padding: 10px 5px;
+  float: left;
+  font: 15px "Open Sans", sans-serif;
+  border: 0;
+  background: #eee;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.searchButton {
+  overflow: visible;
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 110px;
+  font: bold 15px/40px "Open Sans", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  background: #d83c3c;
+  border-radius: 5px;
+}

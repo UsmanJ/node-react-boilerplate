@@ -1,0 +1,26 @@
+.results {
+  text-align: center;
+}
+
+.result {
+  width: 700px;
+  height: 150px;
+  display: block;
+  margin: 0 auto 20px auto;
+  position: relative;
+  background-color: #e1e0e2;
+  border-radius: 15px;
+}
+
+.detail {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.resultName {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
