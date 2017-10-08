@@ -5,6 +5,10 @@
 This application allows users to enter a town or city name and returns the most popular venues in the area. It is
 using a FourSquare API.
 
+The webapp was built in ES6 using Node and React with Redux. Client side and server side have been kept separate.
+The client side makes a call to the server which then makes a call to the Foursquare API. The response is returned to
+the client and rendered.
+
 ## Technologies Used
 
 * NodeJS
