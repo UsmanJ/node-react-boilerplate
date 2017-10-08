@@ -2,7 +2,8 @@
 
 ## Synopsis
 
-
+This application allows users to enter a town or city name and returns the most popular venues in the area. It is
+using a FourSquare API.
 
 ## Technologies Used
 
