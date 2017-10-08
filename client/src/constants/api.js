@@ -4,7 +4,7 @@ const ROUTES =
       BaseURL: 'http://localhost:3001',
     }
     : {
-      BaseURL: '#{Popularhunt.Core.API}',
+      BaseURL: ' https://venuehunt.herokuapp.com',
     };
 
 export { ROUTES }; // eslint-disable-line import/prefer-default-export
