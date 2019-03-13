@@ -1,12 +1,11 @@
-import api from '../../api/venueApi';
+import api from '../../api/tariffApi';
 import keyMirror from '../../util/keyMirror';
 
 export const actionTypes = keyMirror(
   {
-    UPDATE_PROPERTY: null,
-    VENUES_RECEIVED: null,
+    RECEIVED_TARIFFS: null,
   },
-  'VENUE',
+  'TARIFF',
 );
 
 export const updateProperty = (field, value) => ({
@@ -17,10 +16,10 @@ export const updateProperty = (field, value) => ({
   },
 });
 
-export const getVenues = searchTerm => (dispatch) => {
-  api.getVenues(searchTerm).then((response) => {
+export const getTariffs = () => (dispatch) => {
+  api.getTariffs().then((response) => {
     dispatch({
-      type: actionTypes.VENUES_RECEIVED,
+      type: actionTypes.RECEIVED_TARIFFS,
       payload: response.data,
     });
   });

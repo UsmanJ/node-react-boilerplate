@@ -2,13 +2,10 @@ import axios from 'axios';
 import { ROUTES } from '../constants/api';
 
 export default {
-  getVenues: searchTerm =>
+  getTariffs: () =>
     axios({
       method: 'get',
-      url: `${ROUTES.BaseURL}/get-venues`,
-      params: {
-        searchTerm,
-      },
+      url: `${ROUTES.BaseURL}/tariffs`,
       headers: {
         'Content-Type': 'application/json',
       },

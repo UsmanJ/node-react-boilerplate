@@ -1,12 +1,10 @@
 {
-  "name": "venue-hunt-app",
+  "name": "reactapp",
   "version": "1.0.0",
-  "description": "Appplication to find popular venues near a given venue",
   "main": "app.js",
   "scripts": {
-    "buildServer":
-      "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./client,./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
-    "client": "node start-client.js",
+    "buildServer": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./client,./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "client": "node ../start-client.js",
     "server": "npm run buildServer && node dist/server.js",
     "start": "concurrently \"npm run server\" \"npm run client\""
   },
@@ -19,13 +17,14 @@
     "babel-preset-es2015": "^6.24.1",
     "body-parser": "^1.18.2",
     "concurrently": "3.1.0",
+    "dotenv": "^6.2.0",
     "express": "^4.15.4",
+    "mongoose": "^5.4.17",
     "morgan": "^1.8.2"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
-    "dotenv": "^4.0.0",
     "mocha": "^3.5.0",
     "rimraf": "^2.6.1"
   }

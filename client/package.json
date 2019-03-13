@@ -1,5 +1,5 @@
 {
-  "name": "venue-hunt-frontend",
+  "name": "react-app-frontend",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",

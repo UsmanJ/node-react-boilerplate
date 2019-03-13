@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import venueReducer from './venue';
+import tariffReducer from './tariff';
 
 export default combineReducers({
-  venue: venueReducer,
+  tariff: tariffReducer,
 });

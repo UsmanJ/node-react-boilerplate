@@ -5,12 +5,18 @@
 /node_modules
 /package-lock.json
 /client/package-lock.json
+/server/node_modules
+/server/package-l.json
+/client/yarn.lock
+/server/yarn.lock
 
 # testing
 /coverage
 
 # production
 /dist
+/client/build
+/server/dist
 
 # misc
 .DS_Store
